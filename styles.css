@@ -35,6 +35,10 @@ header {
     font-weight: 700;
 }
 
+.header-logo img {
+    height: 100px;
+}
+
 .top-nav p a, .top-left h4{
     margin: 8px;
     color: lightgray;
@@ -62,6 +66,7 @@ header {
 
 .top-left h4 {
     font-weight: 400;
+    margin-left: 0;
 }
 
 .top-right {
@@ -81,11 +86,20 @@ header {
     border: none;
     border-radius:8px;
     margin: 8px;
+    margin-left: 0;
+    font-weight: 700;
+}
+
+.top-left button a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-right img {
+    width: 100%;
 }
 
 .placeholder-image {
-    background-color: gray;
-    color: white;
     height: 100px;
     width: 66%;
     display: flex;
@@ -121,7 +135,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 10%;
-    margin: 16px;
+    margin: 80px;
     padding-bottom: 32px;
 }
 
@@ -130,11 +144,17 @@ header {
 }
 
 .image-square {
-    height: 100px;
-    width: 100px;
+    height: 250px;
+    width: 250px;
     border: 1px #3882F6 solid;
     border-radius: 12px;
     border-width: medium;
+}
+
+.image-square img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
 }
 
 .quote-section {
@@ -160,6 +180,7 @@ header {
     width: 40%;
     margin-left: auto;
     font-size: 28px;
+    padding-right: 256px;
 }
 
 .cta-container {
@@ -213,11 +234,15 @@ header {
     background-color: #3882F6;
     border-radius: 8px;
     border: 1px solid white;
-    color: white;
     padding: 8px 32px 8px 32px;
     font-weight: 700;
     border-width: medium;
     font-size: 16px;
+}
+
+.cta-right button a {
+    text-decoration: none;
+    color: white;
 }
 
 footer {
@@ -229,4 +254,9 @@ footer {
     color: white;
     font-weight: 100;
     padding: 16px 0px 16px 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
